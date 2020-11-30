@@ -22,6 +22,11 @@ class Autoencoder(nn.Module):
             nn.ReLU(True),
         )
 
+    def forward(self, x):
+        x = self.encoder(x)
+        x = self.decoder(x)
+        return x
+
 
 def main():
     pass
