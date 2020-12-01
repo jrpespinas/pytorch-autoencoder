@@ -2,7 +2,8 @@ Autoencoder
 ===
 
 ## Overview 
-Develop an autoencoder using PyTorch
+This repository is based from this [Medium article](https://medium.com/@vaibhaw.vipul/building-autoencoder-in-pytorch-34052d1d280c). 
+The main focus is to implement a convolutional autoencoder in PyTorch with CIFAR-10 dataset.
 
 ## Results
 ```
