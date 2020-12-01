@@ -54,7 +54,7 @@ test_loader = torch.utils.data.DataLoader(
 )
 
 
-num_epochs = 5
+num_epochs = 10
 batch_size = 128
 
 model = Autoencoder().to(device)
@@ -79,4 +79,4 @@ for epoch in range(num_epochs):
 
     # ============ LOGS ============
     print('epoch [{}/{}], loss:{:.4f}'.format(
-        epoch+1, num_epochs, loss))
+        epoch+1, num_epochs, loss.data))
