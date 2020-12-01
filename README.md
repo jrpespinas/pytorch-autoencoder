@@ -1,7 +1,23 @@
 Autoencoder
 ===
+
+## Overview 
 Develop an autoencoder using PyTorch
 
+## Results
+```
+epoch [1/10], loss:0.3079
+epoch [2/10], loss:0.3022
+epoch [3/10], loss:0.2992
+epoch [4/10], loss:0.2974
+epoch [5/10], loss:0.2963
+epoch [6/10], loss:0.2952
+epoch [7/10], loss:0.2937
+epoch [8/10], loss:0.2930
+epoch [9/10], loss:0.2914
+epoch [10/10], loss:0.2903
+```
+## LICENSE
 ```
 MIT License
 
